@@ -101,7 +101,7 @@
         let m = parseInt(((A - B) - (h * 3600)) / 60);
         let s = (A - B) % 60;
         if (t_h != -1 & t_m != -1 & t_s != -1) {
-            if (A > B) {
+            if (A >= B) {
                 l01.textContent = "倒數時間： " + h + " : " + m + " : " + s;
             }
 
